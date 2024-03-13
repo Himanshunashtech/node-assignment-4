@@ -12,6 +12,7 @@
     "express": "~4.16.1",
     "http-errors": "~1.6.3",
     "jade": "~1.11.0",
+    "jest": "^29.7.0",
     "morgan": "~1.9.1"
   },
   "main": "app.js",
@@ -21,5 +22,8 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "supertest": "^6.3.4"
+  }
 }
